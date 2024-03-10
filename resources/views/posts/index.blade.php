@@ -74,14 +74,20 @@
             @foreach($posts as $key => $value)
             <div class="bg-white dark:bg-gray-900 shadow-md rounded-lg overflow-hidden">
                 <div class="px-6 py-4">
-                    <div class="font-medium text-gray-900 dark:text-white mb-2">{{ ucfirst($value->title) }}</div>
-                    <p class="text-gray-700 dark:text-gray-400 text-sm">{{ strftime("%d %b
-                        %Y",strtotime($value->created_at)) }}
+                    <div class="font-medium text-gray-900 dark:text-white mb-2">
+                        <a href="./posts/{{ $value->id }}" class="block text-blue-600 dark:text-blue-500 hover:underline">
+                            {{ ucfirst($value->title) }}
+                        </a>
+                        </div>
+                    <p class="text-gray-700 dark:text-gray-400 text-sm">
+                        posted by:
+                        <a href="#"
+                            class="text-blue-600 dark:text-blue-500 hover:underline">
+                            {{ $value->user->name }}
+                        </a>
                     </p>
-                </div>
-                <div class="px-6 pt-4 pb-2">
-                    <a href="./posts/{{ $value->id }}"
-                        class="block text-blue-600 dark:text-blue-500 hover:underline">View</a>
+                    <p class="text-gray-700 dark:text-gray-400 text-xs mt-3">{{ strftime("%d %b %Y",strtotime($value->created_at)) }}
+                    </p>
                 </div>
             </div>
             @endforeach
