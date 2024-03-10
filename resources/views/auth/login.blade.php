@@ -4,178 +4,88 @@
 
 
 <!-- Section: Design Block -->
-<section class="mb-40">
-    <nav class="navbar navbar-expand-lg shadow-md py-2 bg-white relative flex items-center w-full justify-between">
-        <div class="px-6 w-full flex flex-wrap items-center justify-between">
-            <div class="flex items-center">
-                <button class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContentY" aria-controls="navbarSupportedContentY" aria-expanded="false" aria-label="Toggle navigation">
-                    <svg aria-hidden="true" focusable="false" data-prefix="fas" class="w-5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                        <path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path>
-                    </svg>
-                </button>
-                <a class="navbar-brand text-blue-600" href="#!">
-                    <svg class="w-5 h-5 ml-2 lg:ml-0 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                        <path fill="currentColor" d="M485.5 0L576 160H474.9L405.7 0h79.8zm-128 0l69.2 160H149.3L218.5 0h139zm-267 0h79.8l-69.2 160H0L90.5 0zM0 192h100.7l123 251.7c1.5 3.1-2.7 5.9-5 3.3L0 192zm148.2 0h279.6l-137 318.2c-1 2.4-4.5 2.4-5.5 0L148.2 192zm204.1 251.7l123-251.7H576L357.3 446.9c-2.3 2.7-6.5-.1-5-3.2z"></path>
-                    </svg>
-                </a>
-            </div>
-            <div class="navbar-collapse collapse grow items-center" id="navbarSupportedContentY">
-                <ul class="navbar-nav mr-auto lg:flex lg:flex-row">
-                    <li class="nav-item">
-                        <a class="nav-link block pr-2 lg:px-2 py-2 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out" href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">Dashboard</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link block pr-2 lg:px-2 py-2 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out" href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">Team</a>
-                    </li>
-                    <li class="nav-item mb-2 lg:mb-0">
-                        <a class="nav-link block pr-2 lg:px-2 py-2 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out" href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">Projects</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="flex items-center lg:ml-auto">
-                <button type="button" class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out" data-mdb-ripple="true" data-mdb-ripple-color="light">Login</button>
-                <a href="/registration"><button type="button" class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out" data-mdb-ripple="true" data-mdb-ripple-color="light">Sign up for free</button></a>
+
+<div class="flex flex-row w-full items-center h-screen">
+    <div class="w-1/2 bg-pink-100">
+        <div class="w-full flex flex-col items-center h-screen justify-center">
+            <div class="items-center">
+                <svg viewBox="81.51 79.5872 176.98 90.8255" width="176.98" height="90.826"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g data-v-0dd9719b="" fill="#333" class="icon-text-wrapper icon-svg-group iconsvg"
+                        transform="matrix(1, 0, 0, 1, 81.51000213623047, 79.5872344970703)">
+                        <g class="iconsvg-imagesvg" transform="translate(58.4899959564209,0)">
+                            <g>
+                                <rect fill="#333" fill-opacity="0" stroke-width="2" x="0" y="0" width="60"
+                                    height="62.365524338145875" class="image-rect" />
+                                <svg x="0" y="0" width="60" height="62.365524338145875" filtersec="colorsb9094439198"
+                                    class="image-svg-svg primary" style="overflow: visible;">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0.0026211319491267204 0 104.36734008789062 108.48165130615234">
+                                        <title>资源 139</title>
+                                        <path
+                                            d="M58.5 4.44A13.51 13.51 0 0 1 62 8.09c7.17 11.38-16.15 53.76-19.83 61.44-1.56 3.29 1.4 5.87 11.29 4.74 27.29-1 36.1 7.56 38.15 16.21a52.19 52.19 0 0 0-33.13-86z"
+                                            fill="#eda837" />
+                                        <path
+                                            d="M20.3 89.73c-16.92-.45 27.62-48.55 30.57-69.86C53.38 1.75 33.07 0 33.07 0a12.44 12.44 0 0 1 7.66 5.34 52.21 52.21 0 1 0 40.79 94.14c3.8 1.52 7.1 4 7.7 8 1.35-24.64-53.9-17.35-68.92-17.75z"
+                                            fill="#24669e" />
+                                    </svg>
+                                </svg>
+                            </g>
+                        </g>
+                        <g transform="translate(0,69.36552429199219)">
+                            <g data-gra="path-name" fill-rule="" class="tp-name iconsvg-namesvg">
+                                <g transform="scale(1)">
+                                    <g>
+                                        <path
+                                            d="M7.25-21.16L7.25-4.23 18.29-4.23 18.29 0 1.81 0 1.81-21.16 7.25-21.16ZM36.42-11.49L36.42-4.53Q36.42-2.27 35.14-0.98 33.85 0.3 31.59 0.3L31.59 0.3 24.63 0.3Q22.37 0.3 21.08-0.98 19.8-2.27 19.8-4.53L19.8-4.53 19.8-11.49Q19.8-13.75 21.08-15.04 22.37-16.32 24.63-16.32L24.63-16.32 31.59-16.32Q33.85-16.32 35.14-15.04 36.42-13.75 36.42-11.49L36.42-11.49ZM31.13-4.99L31.13-11.03Q31.13-12.24 29.92-12.24L29.92-12.24 26.3-12.24Q25.09-12.24 25.09-11.03L25.09-11.03 25.09-4.99Q25.09-3.78 26.3-3.78L26.3-3.78 29.92-3.78Q31.13-3.78 31.13-4.99L31.13-4.99ZM49.12-11.94L48.06-11.94Q46.46-11.94 44.43-11.34L44.43-11.34 44.43 0 39.14 0 39.14-16.02 43.83-16.02 44.13-14.51Q45.55-15.45 47.05-15.88 48.54-16.32 49.57-16.32L49.57-16.32 50.93-16.32Q52.99-16.32 54.23-15.08 55.47-13.84 55.47-11.79L55.47-11.79 55.47 0 50.18 0 50.18-10.88Q50.18-11.34 49.87-11.64 49.57-11.94 49.12-11.94L49.12-11.94ZM74.21 0L69.52 0 69.22-1.51Q67.8-0.57 66.3-0.14 64.81 0.3 63.78 0.3L63.78 0.3 62.42 0.3Q60.36 0.3 59.12-0.94 57.88-2.18 57.88-4.23L57.88-4.23 57.88-11.18Q57.88-13.45 59.17-14.74 60.45-16.02 62.72-16.02L62.72-16.02 68.92-16.02 68.92-21.16 74.21-21.16 74.21 0ZM64.23-4.08L65.29-4.08Q66.89-4.08 68.92-4.69L68.92-4.69 68.92-11.94 64.38-11.94Q63.17-11.94 63.17-10.73L63.17-10.73 63.17-5.14Q63.17-4.69 63.48-4.38 63.78-4.08 64.23-4.08L64.23-4.08ZM93.55-11.49L93.55-4.53Q93.55-2.27 92.27-0.98 90.98 0.3 88.72 0.3L88.72 0.3 81.76 0.3Q79.5 0.3 78.21-0.98 76.93-2.27 76.93-4.53L76.93-4.53 76.93-11.49Q76.93-13.75 78.21-15.04 79.5-16.32 81.76-16.32L81.76-16.32 88.72-16.32Q90.98-16.32 92.27-15.04 93.55-13.75 93.55-11.49L93.55-11.49ZM88.26-4.99L88.26-11.03Q88.26-12.24 87.05-12.24L87.05-12.24 83.43-12.24Q82.22-12.24 82.22-11.03L82.22-11.03 82.22-4.99Q82.22-3.78 83.43-3.78L83.43-3.78 87.05-3.78Q88.26-3.78 88.26-4.99L88.26-4.99ZM106.25-11.94L105.19-11.94Q103.59-11.94 101.56-11.34L101.56-11.34 101.56 0 96.27 0 96.27-16.02 100.96-16.02 101.26-14.51Q102.68-15.45 104.18-15.88 105.67-16.32 106.7-16.32L106.7-16.32 108.06-16.32Q110.12-16.32 111.36-15.08 112.59-13.84 112.59-11.79L112.59-11.79 112.59 0 107.3 0 107.3-10.88Q107.3-11.34 107-11.64 106.7-11.94 106.25-11.94L106.25-11.94ZM129.67-21.16L129.67-15.72Q132.6-16.32 134.81-16.32L134.81-16.32 136.17-16.32Q138.23-16.32 139.47-15.08 140.71-13.84 140.71-11.79L140.71-11.79 140.71 0 135.42 0 135.42-11.18Q135.42-11.64 135.11-11.94 134.81-12.24 134.36-12.24L134.36-12.24 133.3-12.24Q132.15-12.24 131.2-12.12 130.25-12 129.67-11.94L129.67-11.94 129.67 0 124.38 0 124.38-21.16 129.67-21.16ZM149.77-4.08L150.83-4.08Q152.43-4.08 154.46-4.69L154.46-4.69 154.46-16.02 159.75-16.02 159.75 0 155.06 0 154.76-1.51Q153.34-0.57 151.84-0.14 150.35 0.3 149.32 0.3L149.32 0.3 147.96 0.3Q145.9 0.3 144.66-0.94 143.43-2.18 143.43-4.23L143.43-4.23 143.43-16.02 148.72-16.02 148.72-5.14Q148.72-4.69 149.02-4.38 149.32-4.08 149.77-4.08L149.77-4.08ZM173.5-5.29L173.5-11.18Q173.5-11.64 173.2-11.94 172.9-12.24 172.44-12.24L172.44-12.24 171.69-12.24Q170.42-12.24 169.5-12.12 168.57-12 168.06-11.94L168.06-11.94 168.06-4.08 172.29-4.08Q173.5-4.08 173.5-5.29L173.5-5.29ZM168.06-21.16L168.06-15.72Q170.99-16.32 173.2-16.32L173.2-16.32 174.26-16.32Q176.31-16.32 177.55-15.08 178.79-13.84 178.79-11.79L178.79-11.79 178.79-4.84Q178.79-2.57 177.51-1.28 176.22 0 173.95 0L173.95 0 162.77 0 162.77-21.16 168.06-21.16Z"
+                                            transform="translate(-1.809999942779541, 21.15999984741211)" />
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
             </div>
         </div>
-    </nav>
-    <div class="flex m-5 justify-center">
-        <div class="block p-6 bg-white border border-gray-200 rounded-lg shadow-lg hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+    </div>
+    <div class="w-1/2 p-10 h-screen">
+        <div class="border-4 shadow-xl rounded-lg p-5 h-screen flex flex-col items-center h-screen justify-center">
             <div class="font-bold text-center text-2xl">Login</div>
-            <div class="">
-                <form action="{{ route('login.post') }}" method="POST">
-                    @csrf
-                    <div class="form-group row">
-                        <label for="email_address" class="col-md-4 col-form-label text-md-right font-bold">Email</label>
-                        <div class="col-md-10">
-                            <input type="text" id="email_address" class="rounded-lg form-control" name="email" required autofocus>
-                            @if ($errors->has('email'))
-                            <span class="text-danger">{{ $errors->first('email') }}</span>
-                            @endif
-                        </div>
+            <form action="{{ route('login.post') }}" method="POST">
+                @csrf
+                <div class="form-group row w-100">
+                    <label for="email_address" class="col-form-label text-md-right font-bold">Email</label>
+                    <div class="w-100">
+                        <input type="text" id="email_address" class="rounded-lg form-control" name="email" required
+                            autofocus>
+                        @if ($errors->has('email'))
+                        <span class="text-danger">{{ $errors->first('email') }}</span>
+                        @endif
                     </div>
+                </div>
 
-                    <div class="form-group row">
-                        <label for="password" class="col-md-4 col-form-label text-md-right font-bold">Password</label>
-                        <div class="col-md-10">
-                            <input type="password" id="password" class="rounded-lg form-control" name="password" required>
-                            @if ($errors->has('password'))
-                            <span class="text-danger">{{ $errors->first('password') }}</span>
-                            @endif
-                        </div>
+                <div class="form-group row w-100">
+                    <label for="password" class="col-form-label text-md-right font-bold">Password</label>
+                    <div class="w-100">
+                        <input type="password" id="password" class="rounded-lg form-control" name="password" required>
+                        @if ($errors->has('password'))
+                        <span class="text-danger">{{ $errors->first('password') }}</span>
+                        @endif
                     </div>
-                    <div class="col-md-10 offset-md-4 mt-10">
-                        <button type="submit" class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">
-                            Login
-                        </button>
-                    </div>
-                </form>
-
-            </div>
+                </div>
+                <div class="w-100 mt-10">
+                    <button type="submit"
+                        class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out bg-gradient-to-r from-purple-500 to-pink-500">
+                        Login
+                    </button>
+                    <a href="/registration"><button type="button"
+                            class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out  bg-gradient-to-r from-cyan-500 to-blue-500"
+                            data-mdb-ripple="true" data-mdb-ripple-color="light">Sign up for free</button></a>
+                </div>
+                
+            </form>
         </div>
     </div>
-
-</section>
-
-<footer class="text-center lg:text-left bg-gray-100 text-gray-600 fixed bottom-0">
-
-    <div class="mx-6 py-15 text-center md:text-left mt-5">
-        <div class="grid grid-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div class="">
-                <h6 class="
-        uppercase
-        font-semibold
-        mb-4
-        flex
-        items-center
-        justify-center
-        md:justify-start
-      ">
-                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="cubes" class="w-4 mr-3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                        <path fill="currentColor" d="M488.6 250.2L392 214V105.5c0-15-9.3-28.4-23.4-33.7l-100-37.5c-8.1-3.1-17.1-3.1-25.3 0l-100 37.5c-14.1 5.3-23.4 18.7-23.4 33.7V214l-96.6 36.2C9.3 255.5 0 268.9 0 283.9V394c0 13.6 7.7 26.1 19.9 32.2l100 50c10.1 5.1 22.1 5.1 32.2 0l103.9-52 103.9 52c10.1 5.1 22.1 5.1 32.2 0l100-50c12.2-6.1 19.9-18.6 19.9-32.2V283.9c0-15-9.3-28.4-23.4-33.7zM358 214.8l-85 31.9v-68.2l85-37v73.3zM154 104.1l102-38.2 102 38.2v.6l-102 41.4-102-41.4v-.6zm84 291.1l-85 42.5v-79.1l85-38.8v75.4zm0-112l-102 41.4-102-41.4v-.6l102-38.2 102 38.2v.6zm240 112l-85 42.5v-79.1l85-38.8v75.4zm0-112l-102 41.4-102-41.4v-.6l102-38.2 102 38.2v.6z">
-                        </path>
-                    </svg>
-                    Blogger ELEMENTS
-                </h6>
-                <p>
-                    Here you can use rows and columns to organize your footer content. Lorem ipsum dolor
-                    sit amet, consectetur adipisicing elit.
-                </p>
-            </div>
-            <div class="">
-                <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start">
-                    Products
-                </h6>
-                <p class="mb-4">
-                    <a href="#!" class="text-gray-600">Angular</a>
-                </p>
-                <p class="mb-4">
-                    <a href="#!" class="text-gray-600">React</a>
-                </p>
-                <p class="mb-4">
-                    <a href="#!" class="text-gray-600">Vue</a>
-                </p>
-                <p>
-                    <a href="#!" class="text-gray-600">Laravel</a>
-                </p>
-            </div>
-            <div class="">
-                <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start">
-                    Useful links
-                </h6>
-                <p class="mb-4">
-                    <a href="#!" class="text-gray-600">Pricing</a>
-                </p>
-                <p class="mb-4">
-                    <a href="#!" class="text-gray-600">Settings</a>
-                </p>
-                <p class="mb-4">
-                    <a href="#!" class="text-gray-600">Orders</a>
-                </p>
-                <p>
-                    <a href="#!" class="text-gray-600">Help</a>
-                </p>
-            </div>
-            <div class="">
-                <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start">
-                    Contact
-                </h6>
-                <p class="flex items-center justify-center md:justify-start mb-4">
-                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="home" class="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                        <path fill="currentColor" d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z">
-                        </path>
-                    </svg>
-                    New York, NY 10012, US
-                </p>
-                <p class="flex items-center justify-center md:justify-start mb-4">
-                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope" class="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                        <path fill="currentColor" d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z">
-                        </path>
-                    </svg>
-                    info@example.com
-                </p>
-                <p class="flex items-center justify-center md:justify-start mb-4">
-                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone" class="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                        <path fill="currentColor" d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z">
-                        </path>
-                    </svg>
-                    + 01 234 567 88
-                </p>
-                <p class="flex items-center justify-center md:justify-start">
-                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="print" class="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                        <path fill="currentColor" d="M448 192V77.25c0-8.49-3.37-16.62-9.37-22.63L393.37 9.37c-6-6-14.14-9.37-22.63-9.37H96C78.33 0 64 14.33 64 32v160c-35.35 0-64 28.65-64 64v112c0 8.84 7.16 16 16 16h48v96c0 17.67 14.33 32 32 32h320c17.67 0 32-14.33 32-32v-96h48c8.84 0 16-7.16 16-16V256c0-35.35-28.65-64-64-64zm-64 256H128v-96h256v96zm0-224H128V64h192v48c0 8.84 7.16 16 16 16h48v96zm48 72c-13.25 0-24-10.75-24-24 0-13.26 10.75-24 24-24s24 10.74 24 24c0 13.25-10.75 24-24 24z">
-                        </path>
-                    </svg>
-                    + 01 234 567 89
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="text-center p-6 bg-gray-200">
-        <span>© 2023 Blogger</span>
-        <a class="text-gray-600 font-semibold" href="https://Blogger-elements.com/">Blogger Elements</a>
-    </div>
-</footer>
-
-<!-- Section: Design Block -->
+</div>
 
 @endsection
