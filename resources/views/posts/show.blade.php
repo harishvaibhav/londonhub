@@ -1,49 +1,52 @@
 @extends('layouts.app')
 @section('content')
-<div class="container">
-    <div class="row mt-10 my-10 w-3/4">
-        <div class="col-12 pt-2 card py-5 shadow-lg my-20 rounded-lg p-5 w-3/4">
-            <div class="py-10">
-                <a href="/posts" class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Back</a>
-                <h1 class="font-bold text-2xl mt-5 text-center">{{ ucfirst($post->title) }}</h1>
-                <p class="text-gray-700 mt-2">{!! $post->body !!}</p>
-                <h4 class="font-bold text-xl my-3">Discussion Forum:</h4>
+<div class="container mx-auto">
+    <div class="max-w-3xl mx-auto">
+        <div class="bg-white rounded-lg shadow-lg">
+            <h1 class="text-3xl text-center my-4">{{ ucfirst($post->title) }}</h1>
+            <div class="p-4">
+                <p class="text-gray-800">{!! $post->body !!}</p>
+            </div>
+            <div class="bg-gray-100 p-4">
+                <h4 class="font-bold text-xl mb-4">Discussion Forum:</h4>
                 @foreach($comments as $comment)
-                <div class="display-comment">
+                <div class="border-b border-gray-300 py-4">
                     <strong>{{ $comment->user->name }}</strong>
-                    <p>{{ $comment->body }}</p>
+                    <p class="text-gray-800">{{ $comment->body }}</p>
                 </div>
                 @endforeach
 
-                <form method="post" class="mt-10 " action="{{ route('comments.store')}}">
+                <form method="post" class="mt-8" action="{{ route('comments.store')}}">
                     @csrf
                     <div class="form-group">
-                        <textarea class="form-control" name="body" placeholder="Please comment your thoughts for the above post"></textarea>
+                        <textarea class="form-control" name="body"
+                            placeholder="Please comment your thoughts for the above post"></textarea>
                         <input type="hidden" name="post_id" value="{{ $post->id }}" />
                     </div>
-                    <div class="form-group mt-5 text-right">
-                        <input type="submit" class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out" value="Add Comment" />
+                    <div class="form-group mt-4 text-right">
+                        <input type="submit"
+                            class="inline-block px-6 py-3 bg-blue-600 text-white font-bold text-xs uppercase rounded shadow-md hover:bg-blue-700 focus:bg-blue-700 focus:outline-none transition duration-150 ease-in-out"
+                            value="Add Comment" />
                     </div>
                 </form>
-
-                @if($post->user_id == Auth::user()->id)
-                <div class="row justify-center text-center mt-10">
-                    <div class="col-6">
-                        <a href="/posts/{{ $post->id }}/edit" class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"> <i class="fa fa-pencil" aria-hidden="true"></i>
-                            Edit Post</a>
-                    </div>
-                    <div class="col-6">
-                        <form id="delete-frm" class="" action="" method="POST">
-                            @method('DELETE')
-                            @csrf
-                            <button class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"> <i class="fa fa-trash" aria-hidden="true"></i>
-                                Delete Post</button>
-                        </form>
-                    </div>
-                </div>
-                @endif
-
             </div>
+            @if($post->user_id == Auth::user()->id)
+            <div class="bg-gray-100 text-center py-4">
+                <a href="/posts/{{ $post->id }}/edit"
+                    class="inline-block px-6 py-3 bg-blue-600 text-white font-bold text-xs uppercase rounded shadow-md hover:bg-blue-700 focus:bg-blue-700 focus:outline-none transition duration-150 ease-in-out">Edit
+                    Post</a>
+                <form id="delete-frm" class="inline-block" action="" method="POST">
+                    @method('DELETE')
+                    @csrf
+                    <button
+                        class="inline-block px-6 py-3 bg-red-600 text-white font-bold text-xs uppercase rounded shadow-md hover:bg-red-700 focus:bg-red-700 focus:outline-none transition duration-150 ease-in-out">Delete
+                        Post</button>
+                </form>
+                <a href="/posts"
+                    class="inline-block px-6 py-3 bg-blue-600 text-white font-bold text-xs uppercase rounded shadow-md hover:bg-blue-700 focus:bg-blue-700 focus:outline-none transition duration-150 ease-in-out">
+                    Go back</a>
+            </div>
+            @endif
         </div>
     </div>
 </div>
