@@ -2,22 +2,20 @@
 
 namespace Database\Factories;
 
+use App\Models\Post;
 use App\Models\User;
-
 use Illuminate\Database\Eloquent\Factories\Factory;
-
 
 class PostFactory extends Factory
 {
-    // using the below method we can create fake posts in the DB.
+    protected $model = Post::class;
+
     public function definition()
     {
         return [
             'title' => $this->faker->sentence,
-            //Generates a fake sentence
-            'body' => $this->faker->paragraph(30),
-            //generates fake 30 paragraphs
-            'user_id' => User::factory()
+            'body' => $this->faker->paragraph,
+            'user_id' => User::factory()->create()->id,
         ];
     }
 }
