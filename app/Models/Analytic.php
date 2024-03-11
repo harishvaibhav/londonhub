@@ -10,4 +10,9 @@ class Analytic extends Model
     // allowing these parameters to be updated
     protected $fillable = ['post_id', 'view_count'];
     use HasFactory;
+
+    public function post()
+    {
+        return $this->belongsTo(Post::class);
+    }
 }
