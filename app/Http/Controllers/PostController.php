@@ -13,7 +13,7 @@ class PostController extends Controller
     // listing all the posts with pagination enabled
     public function index()
     {
-        $posts = Post::paginate(10);
+        $posts = Post::paginate(5);
         return view(
             'posts.index',
             compact('posts')
